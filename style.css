@@ -44,4 +44,10 @@ border-top: none;
     display: flex;
   }
 }
-  
+.botao:first-child{
+  border-radius: 40px 0 0 0;
+}
+.botao:last-child{
+  borer-radius: 0 40px 0 0;
+  }
+}
