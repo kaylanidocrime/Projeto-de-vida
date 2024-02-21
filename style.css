@@ -16,3 +16,6 @@ body{
   background-color: var(--botao-ativo);
   border-buttom: 4px sloid var(--verde);
 }
+.titulo-principal span{
+  color: var(--verde);
+}
