@@ -33,7 +33,7 @@ body {
 }
 
 .titulo-principal span {
-    color: var(--verde);
+    color: var(--Aqua);
 }
 
 
@@ -63,7 +63,7 @@ body {
 
 .ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
+    border-bottom: 4px solid var(--Aqua);
 }
 
 @media screen and (min-width: 768px) {
