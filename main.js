@@ -1,12 +1,12 @@
-const botoes = document.querySelectA11(".botao");
+const botoes = document.querySelectorAll(".botao");
 
-for(let i=0;i <botoes.legth;i++){
-  botoes[i].onclick = function(){
+for(let i=0;i <botoes.length;i++){
+    botoes[i].onclick = function(){
 
-    for(let j=0;j<botoes.legth;j++){
-      botoes[j].classList.remove("ativo");
-}
+        for(let j=0;j<botoes.length;j++){
+            botoes[j].classList.remove("ativo");
+        }
 
-    botoes[i].classList.add("ativo");
-  }
+        botoes[i].classList.add("ativo");
+    }
 }
